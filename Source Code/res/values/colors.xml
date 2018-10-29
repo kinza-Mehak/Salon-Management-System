@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e43310</color>
+    <color name="colorPrimaryDark">#f43131</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="homeOptionColor">#c0c2c2</color>
+    <color name="homeOptionTextColor">#f51109</color>
+
+
+    <color name="userProfileTextColor">#0a0909</color>
+    <color name="userProfileTextBackgroundColor">#fff</color>
+</resources>

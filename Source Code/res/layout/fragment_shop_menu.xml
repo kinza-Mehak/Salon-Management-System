@@ -1,0 +1,208 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.business.beautybar.ShopMenuFragment">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            //1st
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:id="@+id/layout_one"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/homeOptionColor"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/icon_of_first_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/shop_booking"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_of_first_item"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="21dp"
+                        android:text="Booking"
+                        android:textColor="@color/homeOptionTextColor"
+
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            //2nd
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:id="@+id/layout_two"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/homeOptionColor"
+                    android:padding="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/icon_of_second_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/shop_services"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_of_second_item"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="22dp"
+                        android:text="Services"
+                        android:textColor="@color/homeOptionTextColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+
+
+            /3rd
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:id="@+id/layout_three"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/homeOptionColor"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/icon_of_third_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shop_ads"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_of_third_item"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="21dp"
+                        android:text="Advertisment"
+                        android:layout_centerInParent="false"
+                        android:textColor="@color/homeOptionTextColor"
+
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            //4th
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:id="@+id/layout_four"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/homeOptionColor"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/icon_of_fifth_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/shop_profile"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_of_fifth_item"
+
+                        android:layout_marginTop="21dp"
+                        android:text="Profile"
+                        android:textColor="@color/homeOptionTextColor"
+                        android:layout_marginLeft="30dp"
+                        android:layout_centerInParent="true"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
